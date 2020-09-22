@@ -5,6 +5,9 @@ export const colors = [
   '#FF9800',
   '#009688',
   '#795548',
+  '#897F48',
+  '#9C9598',
+  '#715141',
 ];
 
 export const refs = {
