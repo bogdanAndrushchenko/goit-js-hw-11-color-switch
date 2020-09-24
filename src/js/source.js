@@ -16,6 +16,7 @@ export const refs = {
   stop: document.querySelector('button[data-action="stop"]'),
 };
 
+
 export const randomIntegerFromInterval = (min, max) => {
   return Math.floor(Math.random() * (max - min + 1) + min);
 };

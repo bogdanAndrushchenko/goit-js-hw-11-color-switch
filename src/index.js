@@ -1,4 +1,4 @@
-import './js/chacge_color.js';
+import './js/change_color_class';
 import './styles.css';
 
 
