@@ -13,7 +13,6 @@ class Switch_color {
     refs.body.style.backgroundColor = colors[index];
   }
   start() {
-    this.isActivBtnStart = true;
     refs.stop.removeAttribute('disabled');
     refs.start.setAttribute('disabled', '');
     this.intervalId = setInterval(this._changeColor, 1000);
